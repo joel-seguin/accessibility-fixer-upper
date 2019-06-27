@@ -10,24 +10,28 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,400i" rel="stylesheet">
 </head>
 <body>
+  <ul>
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-  <div class="masthead">
+  <header class="masthead" role="banner">
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
       <h1 class="push-0">Shrubbery, etc.</h1>
     </div>
-    <div class="nav">
+    <nav class="nav" id="nav">
       <div class="wrapper gutter-1-2">
         <ol class="mega list-group-inline push-0">
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Prices</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#about">About</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#shrubs">Shrubs</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#prices">Prices</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#news">News</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#contact">Contact</a></li>
       </div>
-    </div>
-  </div>
+    </nav>
+  </header>
 
-  <div>
+  <main id="main">
     <div class="about push" id="about">
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/shrbs.jpg" alt="">
@@ -153,6 +157,7 @@
         </form>
       </div>
     </div>
+  </main>
 
   <div class="footer pad-t-1-2 pad-b-1-2">
     <div class="wrapper gutter-1-2">
