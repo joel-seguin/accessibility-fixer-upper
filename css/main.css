@@ -11,8 +11,7 @@ html {
 }
 
 a {
-  color: #568c36;
-  text-decoration: none;
+  color: #cb1111;
 }
 
 a:hover {
@@ -82,6 +81,14 @@ td {
 .footer {
   background-color: #113c00;
   color: #fff;
+}
+
+a:focus {
+  outline: 2px solid #f07b0e;
+}
+
+.nav a:focus {
+  outline: 2px solid #f07b0e;
 }
 
 @media only screen and (min-width: 35em) {
